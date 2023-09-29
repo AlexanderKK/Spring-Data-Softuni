@@ -13,7 +13,7 @@ public class ChangeCasing {
             "UPDATE Town t SET t.name = UPPER(t.name) WHERE CHAR_LENGTH(t.name) <= 5";
 
     public static void main(String[] args) {
-//        TODO: Jakarta Persistence API (Hibernate)
+//        Jakarta Persistence API (Hibernate)
 //
 //        Configuration configuration = new Configuration();
 //        configuration.configure();
@@ -27,7 +27,7 @@ public class ChangeCasing {
 //        session.close();
 
 
-//        TODO: Java Persistence API (javax)
+//        Java Persistence API (javax)
 //
         Logs.hide();
 
@@ -39,7 +39,7 @@ public class ChangeCasing {
 
         entityManager.getTransaction().begin();
 
-//        TODO: Operations With Database
+//        Operations With Database
 //
 
         //SQL

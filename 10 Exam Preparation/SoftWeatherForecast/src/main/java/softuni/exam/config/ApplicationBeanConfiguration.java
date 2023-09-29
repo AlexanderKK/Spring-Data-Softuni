@@ -11,8 +11,6 @@ import java.sql.Time;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
-// TODO:
-
 @Configuration
 public class ApplicationBeanConfiguration {
 

@@ -12,7 +12,7 @@ public class Main {
 
         entityManager.getTransaction().begin();
 
-        // TODO
+
 
         entityManager.getTransaction().commit();
         entityManager.close();

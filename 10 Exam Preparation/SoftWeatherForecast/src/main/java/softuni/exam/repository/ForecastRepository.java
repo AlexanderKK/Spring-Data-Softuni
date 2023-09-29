@@ -8,7 +8,6 @@ import softuni.exam.models.entity.enums.DayOfWeek;
 import java.util.Optional;
 import java.util.Set;
 
-// TODO:
 public interface ForecastRepository extends JpaRepository<Forecast, Integer> {
 
     Optional<Set<Forecast>> findAllByDayOfWeekAndCityPopulationLessThanOrderByMaxTemperatureDescIdAsc(

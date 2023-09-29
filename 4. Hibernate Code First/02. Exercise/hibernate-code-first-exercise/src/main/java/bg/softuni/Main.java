@@ -25,7 +25,6 @@ public class Main {
 
         entityManager.getTransaction().begin();
 
-        // TODO: logic
 //        Product product = new Product();
 //        product.setName("Milk");
 //        product.setPrice(BigDecimal.valueOf(20));
